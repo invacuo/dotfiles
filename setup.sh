@@ -17,11 +17,15 @@ git clone https://github.com/powerline/fonts.git
 rm -rf ~/fonts.sh
 
 #install powerline status
-pip install --user powerline-status
+pip3 install --user powerline-status
 
 #install hub for doing github stuff without going to github
 brew install hub
 brew install tmux
+
+#install firacode
+brew tap caskroom/fonts
+brew cask install font-fira-code
 
 # copy personal shortcuts and add it to .zshrc
 curl -fsSL -o ~/shortcuts.sh https://raw.githubusercontent.com/invacuo/git-shortcuts/master/shortcuts.sh
