@@ -3,6 +3,9 @@
 echo "\n\n****Installing oh-my-zsh****"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
+echo "\n\n****Set zsh as default****"
+echo 'chsh -s $(which zsh)' >> ~/.bashrc
+
 echo "\n\n****copying zshrc****"
 curl https://raw.githubusercontent.com/invacuo/dev-setup/master/.zshrc >> ~/.zshrc
 
