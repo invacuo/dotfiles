@@ -95,7 +95,3 @@ source ~/shortcuts.sh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
-export PATH="/usr/local/sbin:$PATH"
-export PATH="/usr/local/opt/qt@5.5/bin:$PATH"
